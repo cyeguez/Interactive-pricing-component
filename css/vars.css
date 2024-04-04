@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+:root {
+  /* -------------------------------------------------------------------------- */
+  /*                                  ​‌‍‌ ⁡⁣⁢⁣ C𝗼𝗹𝗼𝗿S    ​    ⁡                           */
+  /* -------------------------------------------------------------------------- */
+  --Soft-Cyan: hsl(174, 77%, 80%);
+  --Strong-Cyan: hsl(174, 86%, 45%);
+  --Light-Grayish-Red: hsl(14, 92%, 95%);
+  --Light-Red: hsl(15, 100%, 70%);
+  --Pale-Blue: hsl(226, 100%, 87%);
+  --White: hsl (0, 0%, 100%);
+  --Very-Pale-Blue: hsl(230, 100%, 99%);
+  --Light-Grayish-Blue: hsl(224, 65%, 95%);
+  --Light-Grayish-Blue: hsl(223, 50%, 87%);
+  --Grayish-Blue: hsl(225, 20%, 60%);
+  --Dark-Desaturated-Blue: hsl(227, 35%, 25%) //(Text & CTA Background)
+  /* -------------------------------------------------------------------------- */
+   /*                                  ​‌‍‌‍⁡⁣⁢⁣  FontS       ⁡ ⁡ ​                          */
+   /* -------------------------------------------------------------------------- */
+
+   --fontMarope: "Manrope", sans-serif;
+}/*# sourceMappingURL=vars.css.map */
