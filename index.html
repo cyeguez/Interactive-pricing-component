@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./scss/app.scss">
-  
-  <title>Frontend Mentor | Interactive pricing component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Interactive pricing component</title>
 
-  Simple, traffic-based pricing
-  Sign-up for our 30-day trial. No credit card required. 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1 class="header__title">Simple, traffic-based pricing</h1>
+        <!-- prettier-ignore -->
+        <p class="header__subtitle">
+          Sign-up for our 30-day trial.
+           No credit card required.
+        </p>
+      </header>
+      <main class="container">
+        <p class="container__intro">100k Pageviews</p>
+        <input
+          type="range"
+          min="0"
+          5px;
+          max="5"
+          step="1"
+          value="0"
+          class="container__input-range"
+        />
+        <p class="container__price">
+          <span id="promo" class="container__price--promo">$16.00</span> /month
+        </p>
+        <div class="container__discount">
+          Monthly Billing
+          <input type="checkbox" class="discount__btn-switch" />
+          Yearly Billing <span class="percentage">25% </span>
+        </div>
+        <hr />
 
-  Pageviews
-  $ /month
+        <div class="container__benefits">
+          <p class="container__benefits__item">Unlimited websites></p>
+          <p class="container__benefits__item">100% data ownership</p>
+          <p class="container__benefits__item">Email reports</p>
+        </div>
+        <button class="container__start">Start my trial</button>
+      </main>
 
-  Monthly Billing
-  Yearly Billing 25% discount
+      <!-- <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </footer> -->
+    </div>
 
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-
-  <script src="./js/app.js"></script>
-</body>
+    <script src="./js/app.js"></script>
+  </body>
 </html>

@@ -1,0 +1,36 @@
+.app {
+  background-image: url("../../images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+  padding-inline: 1.5rem ;
+  background-size:auto;
+  position: relative;
+  height: 100vh;
+ 
+ 
+ 
+
+
+  .header {
+    width: min(100%, 375px);
+    background-image: url("../../images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;  
+     
+
+    &__title {      
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 800;
+      
+    }
+    &__subtitle {
+      
+      font-size: 13px;
+      text-align: center;
+      line-height: 1.5;
+      white-space: pre-line;
+    }
+  }
+}
