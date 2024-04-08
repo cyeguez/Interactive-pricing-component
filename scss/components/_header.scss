@@ -32,7 +32,12 @@
 
 @media screen and (min-width: 376px) {
   .app {
-    .header{
+    width: min(100%, 1440px);
+    height: 400px;
+    background-size: contain;
+    margin: 0 auto;
+    .header {
+      width: 540px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -47,8 +52,7 @@
       &__subtitle {
         font-size: 15px;
         white-space: nowrap;
-        margin-top: .5rem;
-        
+        margin-top: 0.5rem;
       }
     }
   }

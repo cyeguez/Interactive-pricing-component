@@ -231,7 +231,14 @@ body {
 }
 
 @media screen and (min-width: 376px) {
+  .app {
+    width: min(100%, 1440px);
+    height: 400px;
+    background-size: contain;
+    margin: 0 auto;
+  }
   .app .header {
+    width: 540px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,7 +297,6 @@ body {
   opacity: 1;
 }
 .container input[type=range]::-webkit-slider-runnable-track {
-  background-color: #43e5f7;
   margin-top: 0;
   height: 10px;
   border-radius: 5px;
