@@ -1,4 +1,5 @@
 .app {
+  width: min(100%, 900px);
   background-image: url("../../images/bg-pattern.svg");
   background-repeat: no-repeat;
   padding-top: 4rem;
@@ -6,14 +7,16 @@
   background-size: auto;
   position: relative;
   height: 100vh;
-
+  overflow-x: none;
+  
   .header {
-    width: min(100%, 375px);
+   width: 375px;
     background-image: url("../../images/pattern-circles.svg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 2rem;
     margin: 0 auto;
+    overflow-x: hidden;
 
     &__title {
       text-align: center;
@@ -30,11 +33,11 @@
   }
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .app {
     width: min(100%, 1440px);
-    height: 400px;
-    background-size: contain;
+    height: 450px;
+    background-size: cover;
     margin: 0 auto;
     .header {
       width: 540px;
@@ -42,6 +45,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-size: contain;
 
       &__title {
         text-align: center;
