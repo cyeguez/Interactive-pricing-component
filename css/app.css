@@ -510,7 +510,7 @@ body {
 .attribution {
   width: 100%;
   position: fixed;
-  bottom: 0;
+  bottom: -20px;
   left: 0;
   text-align: center;
   margin: 0 auto;
